@@ -1,0 +1,22 @@
+{
+  "name": "bit-tools",
+  "version": "0.1.0",
+  "description": "Bitcoin tools because I cannot find anything else.",
+  "main": "index.js",
+  "repository": "https://github.com/chadrbanks/bit-tools.git",
+  "author": "Chad R. Banks <chadrbanks@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn sls offline"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bigi": "^1.4.2",
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.3",
+    "bitcoinjs-lib": "^5.1.6"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.1"
+  }
+}
